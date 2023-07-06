@@ -3,8 +3,8 @@ import jupiter from './assets/jupiter.jpg'
 
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screenh-full w-full pt-10 md:pt-20">
-      <div className="p-8 bg-white rounded-lg shadow-lg max-w-md w-full border border-blue-500">
+    <div className="flex bg-gray-200 items-start justify-center h-screen h-full w-full">
+      <div className="p-8 bg-white rounded-lg shadow-lg max-w-md w-full border border-blue-500 mt-10 md:mt-20">
         
         <img 
           src={jupiter} 
@@ -12,7 +12,7 @@ const App = () => {
           className="mx-auto mb-4 rounded-full h-40 w-40" 
         />
 
-        <h1 className="text-3xl md:text-4xl font-bold text-blue-500 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-center text-blue-500 mb-4">
           Fakhir Shaheen
         </h1>
 
