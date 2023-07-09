@@ -16,7 +16,7 @@ const App = () => {
           Fakhir Shaheen
         </h1>
 
-        <p className="text-2xl text-gray-500 mb-4">
+        <p className="text-2xl text-gray-500 mb-4 text-center">
           Welcome to my website.
         </p>
 
