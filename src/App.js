@@ -21,21 +21,13 @@ const App = () => {
         </p>
 
         <p className="mb-2">
-          I teach computer science.<br/>Links to my projects:
+          I teach computer science. I try to find details and meaning in seemingly insignificant things.<br/>
         </p>
 
-        <ul className="list-disc pl-6 mb-4">
-          <li>
-            <a href="https://google.com" className="text-blue-500 hover:text-blue-600 block">
-              <span className="block">Project 1</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://google.com" className="pt-2 text-blue-500 hover:text-blue-600 block">
-              <span className="block">Project 2</span>
-            </a>
-          </li>
-        </ul>
+        <p className="mb-2">
+          Visit my blog: <a href="/blog" className="text-blue-500 hover:text-blue-600">Theoretical Tinkerings</a>
+        </p>
+
       </div>
     </div>
 
